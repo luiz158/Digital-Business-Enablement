@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Exercicio 01- Web Services SOAP">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <property name="context-root" value="Exercicio_01-_Web_Services_SOAP"/>
+        <property name="java-output-path" value="/Exercicio 01- Web Services SOAP/build/classes"/>
+    </wb-module>
+</project-modules>

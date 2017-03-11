@@ -1,0 +1,95 @@
+package br.com.fiap.view;
+
+import java.util.Calendar;
+import java.util.GregorianCalendar;
+
+import javax.swing.JOptionPane;
+
+import br.com.fiap.bo.ClienteBOStub;
+import br.com.fiap.bo.ClienteBOStub.Atualizar;
+import br.com.fiap.bo.ClienteBOStub.Buscar;
+import br.com.fiap.bo.ClienteBOStub.BuscarResponse;
+import br.com.fiap.bo.ClienteBOStub.Cadastrar;
+import br.com.fiap.bo.ClienteBOStub.Cliente;
+
+public class View {
+
+	public static void main(String[] args) throws Exception {
+
+		ClienteBOStub stub = new ClienteBOStub();
+		Cliente cliente = new Cliente();
+//		Cadastrar
+		Cadastrar params = new Cadastrar();
+		
+		
+		String[] opcoes = { "SAIR", "CREATE", "ATUALIZAR", "ENCONTRAR", "DELETAR" };
+		String opcaoCliente = "ENTRAR PROGRAMA";
+		Calendar dataHoje = new GregorianCalendar().getInstance();
+		System.out.println(opcaoCliente);
+
+		while (!opcaoCliente.equals("SAIR")) {
+			opcaoCliente = (String) JOptionPane.showInputDialog(null, "Opções Menu", "Menu",
+					JOptionPane.QUESTION_MESSAGE, null, opcoes, "SAIR");
+			switch (opcaoCliente) {
+			case "SAIR":
+				System.out.println("SAINDO DO PROGRAMA");
+				break;
+			case "CREATE":
+				cliente.setNome(JOptionPane.showInputDialog("Nome"));
+				cliente.setEmail(JOptionPane.showInputDialog("Email"));
+				cliente.setDataNascimento(dataHoje);
+	
+				params.setCliente(cliente);
+				stub.cadastrar(params);
+				break;
+
+			case "ATUALIZAR":
+				Buscar buscarParams = new Buscar();
+				buscarParams.setId(Integer.parseInt(JOptionPane.showInputDialog("ID para Buscar e Atualização")));
+				BuscarResponse response = stub.buscar(buscarParams);
+				cliente = response.get_return();
+				String nomeAtualizado = JOptionPane.showInputDialog("Nome Atual: " + cliente.getNome());
+				String emailAtualizado = JOptionPane.showInputDialog("Email Atual" + cliente.getEmail());
+				JOptionPane.showConfirmDialog(null,"Data de Nascimento: " + cliente.getDataNascimento());
+				
+				
+				if (!nomeAtualizado.equals(""))
+					cliente.setNome(nomeAtualizado);
+				if (!emailAtualizado.equals(""))
+					cliente.setEmail(emailAtualizado);
+				System.out.println(nomeAtualizado);
+
+				try {
+					dao.update(at);
+					dao.commit();
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+				break;
+
+			case "ENCONTRAR":
+				at = dao.find(Integer.parseInt(JOptionPane.showInputDialog("ID para busca")));
+				System.out.println(at.getNome());
+				System.out.println(at.getCnpj());
+				System.out.println(at.getEndereco());
+				break;
+
+			case "DELETAR":
+				at = dao.find(Integer.parseInt(JOptionPane.showInputDialog("ID para Deleção!")));
+
+				if (JOptionPane.showConfirmDialog(null,
+						"Nome: " + at.getNome() + "\nCNPJ: " + at.getCnpj() + "\nDeletar?", "DELETAR",
+						JOptionPane.YES_NO_OPTION) == 0) {
+					try {
+						dao.delete(at.getId());
+					} catch (IdNotFoundException e) {
+						e.printStackTrace();
+					}
+				}
+				break;
+			default:
+				break;
+			}
+		}
+	}
+}

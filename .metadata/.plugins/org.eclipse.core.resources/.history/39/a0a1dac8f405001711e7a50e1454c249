@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Exercicio 01 - Web Services Requester SOAP">
+        <property name="context-root" value="Exercicio_01_-_Web_Services_Requester_SOAP"/>
+    </wb-module>
+</project-modules>

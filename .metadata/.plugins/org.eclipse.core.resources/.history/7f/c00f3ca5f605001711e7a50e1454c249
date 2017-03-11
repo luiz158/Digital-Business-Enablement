@@ -1,0 +1,15 @@
+package br.com.fiap.view;
+
+import br.com.fiap.bo.ClienteBOStub;
+import br.com.fiap.bo.ClienteBOStub.Cliente;
+
+public class View {
+
+	public static void main(String[] args) throws Exception{
+		
+		ClienteBOStub stub = new ClienteBOStub();
+	
+		Cliente cliente = new Cliente();
+		cliente.setNome("Edipo Almeida");
+	}
+}

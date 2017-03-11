@@ -6,7 +6,7 @@ import javax.persistence.EntityManagerFactory;
 import org.apache.axis2.AxisFault;
 import org.apache.axis2.engine.AxisError;
 
-import br.com.fiap.dao.JogoDAO;
+import br.com.fiap.dao.ClienteDAO;
 import br.com.fiap.dao.impl.JogoDAOImpl;
 import br.com.fiap.entity.Jogo;
 import br.com.fiap.exception.DBException;
@@ -19,7 +19,7 @@ public class JogoBO {
 	
 	public void cadastrar(Jogo jogo) throws AxisFault{
 		EntityManager em = fabrica.createEntityManager();
-		JogoDAO dao = new JogoDAOImpl(em);
+		ClienteDAO dao = new JogoDAOImpl(em);
 		try {
 			dao.cadastrar(jogo);
 			dao.salvar(); //commit
@@ -33,7 +33,7 @@ public class JogoBO {
 	
 	public Jogo buscar(int id){
 		EntityManager em = fabrica.createEntityManager();
-		JogoDAO dao = new JogoDAOImpl(em);
+		ClienteDAO dao = new JogoDAOImpl(em);
 		Jogo jogo = dao.pesquisar(id);
 		em.close();
 		return jogo;
@@ -42,7 +42,7 @@ public class JogoBO {
 	//Atualizar e Remover
 	public void atualizar(Jogo jogo) throws AxisFault {
 		EntityManager em = fabrica.createEntityManager();
-		JogoDAO dao = new JogoDAOImpl(em);
+		ClienteDAO dao = new JogoDAOImpl(em);
 		try {
 			dao.alterar(jogo);
 			dao.salvar();
@@ -56,7 +56,7 @@ public class JogoBO {
 	
 	public void remover(int id) throws AxisFault {
 		EntityManager em = fabrica.createEntityManager();
-		JogoDAO dao = new JogoDAOImpl(em);
+		ClienteDAO dao = new JogoDAOImpl(em);
 		try {
 			dao.remover(id);
 			dao.salvar();

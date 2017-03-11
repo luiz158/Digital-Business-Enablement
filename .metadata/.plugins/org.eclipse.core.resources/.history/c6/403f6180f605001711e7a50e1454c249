@@ -1,0 +1,10 @@
+package br.com.fiap.view;
+
+import br.com.fiap.bo.ClienteBOStub;
+
+public class View {
+
+	ClienteBOStub stub = new ClienteBOStub();
+	
+	
+}
