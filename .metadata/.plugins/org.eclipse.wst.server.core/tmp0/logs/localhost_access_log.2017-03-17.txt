@@ -36,3 +36,14 @@
 127.0.0.1 - - [17/Mar/2017:22:45:19 -0300] "GET /12-WebserviceRestfull-server/rest/produto/ HTTP/1.1" 200 180
 0:0:0:0:0:0:0:1 - - [17/Mar/2017:22:46:53 -0300] "GET /12-WebserviceRestfull-server/rest/produto/ HTTP/1.1" 200 180
 0:0:0:0:0:0:0:1 - - [17/Mar/2017:22:46:56 -0300] "GET /12-WebserviceRestfull-server/rest/produto/ HTTP/1.1" 200 180
+0:0:0:0:0:0:0:1 - - [17/Mar/2017:22:50:32 -0300] "DELETE /12-WebserviceRestfull-server/rest/produto/4 HTTP/1.1" 204 -
+0:0:0:0:0:0:0:1 - - [17/Mar/2017:22:50:45 -0300] "GET /12-WebserviceRestfull-server/rest/produto/ HTTP/1.1" 200 179
+0:0:0:0:0:0:0:1 - - [17/Mar/2017:22:50:46 -0300] "GET /12-WebserviceRestfull-server/rest/produto/ HTTP/1.1" 200 179
+0:0:0:0:0:0:0:1 - - [17/Mar/2017:22:50:47 -0300] "GET /12-WebserviceRestfull-server/rest/produto/ HTTP/1.1" 200 179
+0:0:0:0:0:0:0:1 - - [17/Mar/2017:22:50:48 -0300] "GET /12-WebserviceRestfull-server/rest/produto/ HTTP/1.1" 200 179
+0:0:0:0:0:0:0:1 - - [17/Mar/2017:22:50:52 -0300] "DELETE /12-WebserviceRestfull-server/rest/produto/3 HTTP/1.1" 204 -
+0:0:0:0:0:0:0:1 - - [17/Mar/2017:22:50:54 -0300] "GET /12-WebserviceRestfull-server/rest/produto/ HTTP/1.1" 200 122
+0:0:0:0:0:0:0:1 - - [17/Mar/2017:22:50:58 -0300] "DELETE /12-WebserviceRestfull-server/rest/produto/1 HTTP/1.1" 204 -
+0:0:0:0:0:0:0:1 - - [17/Mar/2017:22:50:59 -0300] "GET /12-WebserviceRestfull-server/rest/produto/ HTTP/1.1" 200 61
+0:0:0:0:0:0:0:1 - - [17/Mar/2017:22:51:02 -0300] "DELETE /12-WebserviceRestfull-server/rest/produto/2 HTTP/1.1" 204 -
+0:0:0:0:0:0:0:1 - - [17/Mar/2017:22:51:03 -0300] "GET /12-WebserviceRestfull-server/rest/produto/ HTTP/1.1" 200 2

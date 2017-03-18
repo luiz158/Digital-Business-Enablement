@@ -57,7 +57,7 @@ public class ProdutosResource {
 	}
 	
 	@DELETE
-	@Path("/{id}")
+	@Path("\{id}")
 	public void remover(@PathParam("id") int codigo){
 		bo.remover(codigo);
 	}

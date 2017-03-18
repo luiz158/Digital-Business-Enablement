@@ -1248,3 +1248,19 @@
 2017-03-17 22:43:55,525 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrm\Desktop\Digital-Business-Enablement\12-WebserviceRestfull-server\src\main\resources
 2017-03-17 22:43:55,526 [Worker-92] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2017-03-17 22:43:55,526 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrm\Desktop\Digital-Business-Enablement\12-WebserviceRestfull-server\src\test\resources
+2017-03-17 22:49:34,245 [Worker-92] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-17 22:49:34,246 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrm\Desktop\Digital-Business-Enablement\12-WebserviceRestfull-server\src\main\resources
+2017-03-17 22:49:34,247 [Worker-92] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-17 22:49:34,247 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrm\Desktop\Digital-Business-Enablement\12-WebserviceRestfull-server\src\test\resources
+2017-03-17 22:50:00,001 [Worker-84] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-17 22:50:00,001 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrm\Desktop\Digital-Business-Enablement\12-WebserviceRestfull-server\src\main\resources
+2017-03-17 22:50:00,002 [Worker-84] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-17 22:50:00,003 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrm\Desktop\Digital-Business-Enablement\12-WebserviceRestfull-server\src\test\resources
+2017-03-17 22:50:06,110 [Worker-91] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-17 22:50:06,111 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrm\Desktop\Digital-Business-Enablement\12-WebserviceRestfull-server\src\main\resources
+2017-03-17 22:50:06,112 [Worker-91] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-17 22:50:06,112 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrm\Desktop\Digital-Business-Enablement\12-WebserviceRestfull-server\src\test\resources
+2017-03-17 22:50:16,662 [Worker-84] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-17 22:50:16,663 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrm\Desktop\Digital-Business-Enablement\12-WebserviceRestfull-server\src\main\resources
+2017-03-17 22:50:16,663 [Worker-84] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-17 22:50:16,664 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\logonrm\Desktop\Digital-Business-Enablement\12-WebserviceRestfull-server\src\test\resources
