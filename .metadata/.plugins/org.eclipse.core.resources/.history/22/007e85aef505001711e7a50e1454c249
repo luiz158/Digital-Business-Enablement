@@ -1,8 +1,0 @@
-package br.com.fiap;
-
-import javax.persistence.EntityManager;
-
-public class ClienteBO {
-
-	EntityManager em = 
-}

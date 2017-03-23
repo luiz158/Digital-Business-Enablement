@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete 11 resources" deleteContents="true" description="Delete 11 resources" element1="/01-ExercicioRevisao" element10="/10-WebserviceSOAP-requester-banco" element11="/11-WebserviceSOAP-requester-banco-desktop" element2="/02-loja-app" element3="/03-DesignPatterns" element4="/04-WebserviceSOAP-provider" element5="/05-EstoqueWS" element6="/06-WebserviceSOAP-requester" element7="/07-WebserviceSOAP-correios" element8="/08-Loja-Central-App" element9="/09-WebserviceSOAP-provider-banco" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="11" stamp="1490309318243"/>
+</session>
