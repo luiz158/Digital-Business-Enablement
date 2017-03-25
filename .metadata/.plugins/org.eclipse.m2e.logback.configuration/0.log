@@ -4921,3 +4921,13 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.glassfish
 2017-03-24 22:34:20,913 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rm76539\Desktop\Digital-Business-Enablement\13-WebserviceRestfull-server-banco\src\main\resources
 2017-03-24 22:34:20,913 [Worker-105] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2017-03-24 22:34:20,913 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rm76539\Desktop\Digital-Business-Enablement\13-WebserviceRestfull-server-banco\src\test\resources
+2017-03-24 22:42:34,472 [Worker-119] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-24 22:42:34,473 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rm76539\Desktop\Digital-Business-Enablement\13-WebserviceRestfull-server-banco\src\main\resources
+2017-03-24 22:42:34,473 [Worker-119] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-24 22:42:34,474 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rm76539\Desktop\Digital-Business-Enablement\13-WebserviceRestfull-server-banco\src\test\resources
+2017-03-24 22:43:54,070 [Worker-123] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-24 22:43:54,070 [Worker-123] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rm76539\Desktop\Digital-Business-Enablement\13-WebserviceRestfull-server-banco\src\main\resources
+2017-03-24 22:43:54,070 [Worker-123] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-03-24 22:43:54,070 [Worker-123] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\rm76539\Desktop\Digital-Business-Enablement\13-WebserviceRestfull-server-banco\src\test\resources
+2017-03-24 22:44:41,899 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@781db1e7{HTTP/1.1,[http/1.1]}{127.0.0.1:0}
+2017-03-24 22:44:41,931 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@19a40e40{/help,null,UNAVAILABLE}

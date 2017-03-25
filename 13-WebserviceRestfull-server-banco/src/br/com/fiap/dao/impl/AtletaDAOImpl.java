@@ -14,6 +14,6 @@ public class AtletaDAOImpl extends GenericDAOImpl<Atleta, Integer> implements At
 	}
 
 	public List<Atleta> listar(){
-		return em.createQuery("from ATLETA", Atleta.class).getResultList();
+		return em.createQuery("from Atleta", Atleta.class).getResultList();
 	}
 }
