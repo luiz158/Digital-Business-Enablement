@@ -1,0 +1,13 @@
+package br.com.fiap.bo;
+
+import javax.persistence.EntityManager;
+
+import br.com.fiap.dao.AtletaDAO;
+import br.com.fiap.dao.impl.AtletaDAOImpl;
+import br.com.fiap.factory.EntityManagerFactorySingleton;
+
+public class AtletaBO {
+
+	EntityManager em= EntityManagerFactorySingleton.getInstance().createEntityManager();
+	private AtletaDAO dao = new AtletaDAOImpl(em);
+}

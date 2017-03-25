@@ -1,0 +1,14 @@
+package br.com.fiap.dao.impl;
+
+import javax.persistence.EntityManager;
+
+import br.com.fiap.dao.AtletaDAO;
+
+public class AtletaDAOImpl extends GenericDAOImpl<T, K> implements AtletaDAO{
+
+	public AtletaDAOImpl(EntityManager em) {
+		super(em);
+		// TODO Auto-generated constructor stub
+	}
+
+}

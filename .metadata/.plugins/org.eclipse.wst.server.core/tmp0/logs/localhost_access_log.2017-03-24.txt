@@ -1,0 +1,11 @@
+127.0.0.1 - - [24/Mar/2017:22:34:57 -0300] "GET / HTTP/1.1" 404 1000
+0:0:0:0:0:0:0:1 - - [24/Mar/2017:22:34:58 -0300] "GET /13-WebserviceRestfull-server-banco/ HTTP/1.1" 404 1070
+0:0:0:0:0:0:0:1 - - [24/Mar/2017:22:35:52 -0300] "GET /13-WebserviceRestfull-server-banco/resource HTTP/1.1" 404 1086
+0:0:0:0:0:0:0:1 - - [24/Mar/2017:22:36:32 -0300] "POST /13-WebserviceRestfull-server-banco/rest/atleta HTTP/1.1" 500 4647
+127.0.0.1 - - [24/Mar/2017:22:37:46 -0300] "GET / HTTP/1.1" 404 1000
+127.0.0.1 - - [24/Mar/2017:22:37:47 -0300] "GET /13-WebserviceRestfull-server-banco/ HTTP/1.1" 404 1070
+0:0:0:0:0:0:0:1 - - [24/Mar/2017:22:38:09 -0300] "POST /13-WebserviceRestfull-server-banco/rest/atleta HTTP/1.1" 500 4647
+0:0:0:0:0:0:0:1 - - [24/Mar/2017:22:38:14 -0300] "GET /13-WebserviceRestfull-server-banco/rest/atleta HTTP/1.1" 500 13115
+0:0:0:0:0:0:0:1 - - [24/Mar/2017:22:40:35 -0300] "POST /13-WebserviceRestfull-server-banco/rest/atleta HTTP/1.1" 201 -
+0:0:0:0:0:0:0:1 - - [24/Mar/2017:22:40:51 -0300] "GET /13-WebserviceRestfull-server-banco/rest/atleta/1 HTTP/1.1" 200 60
+0:0:0:0:0:0:0:1 - - [24/Mar/2017:22:41:00 -0300] "GET /13-WebserviceRestfull-server-banco/rest/atleta/ HTTP/1.1" 500 13115

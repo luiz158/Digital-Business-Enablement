@@ -1,0 +1,28 @@
+package br.com.fiap.entity;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.SequenceGenerator;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="TB_ATLETA")
+@SequenceGenerator(name="seqAtleta", sequenceName="SQ_TB_ATLETA", allocationSize=1)
+public class Atleta {
+	
+	@Id
+	@GeneratedValue(generator="seqAtleta", strategy=GenerationType.SEQUENCE)
+	private int codigo;
+	
+	@Column(name="NM_ATLETA")
+	private String nome;
+	
+	@Column(name="NM_MODALIDADE")
+	private String modalidade;
+	
+	private int ranking;
+
+}

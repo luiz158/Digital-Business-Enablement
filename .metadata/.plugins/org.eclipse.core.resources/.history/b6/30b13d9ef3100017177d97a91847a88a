@@ -1,0 +1,19 @@
+package br.com.fiap.entity;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="TB_ATLETA")
+]
+public class Atleta {
+	
+	private int codigo;
+	
+	private String nome;
+	
+	private String modalidade;
+	
+	private int ranking;
+
+}
