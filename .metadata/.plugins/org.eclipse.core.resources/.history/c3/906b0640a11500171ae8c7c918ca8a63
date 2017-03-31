@@ -1,0 +1,9 @@
+package br.com.fiap.repository;
+
+public class ProdutoRepository {
+	
+	public List<ProdutoTO> listar(){
+		
+	}
+
+}
