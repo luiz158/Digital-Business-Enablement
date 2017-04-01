@@ -22,27 +22,28 @@ import br.com.fiap.exception.IdNotFoundException;
 
 @Path("/atleta")
 public class AtletaResource {
-	
+
 	private AtletaBO bo = new AtletaBO();
-	
+
 	@GET
 	@Path("/{id}")
 	@Produces(MediaType.APPLICATION_JSON)
-	public Atleta buscar(@PathParam("id") int codigo){
-		Atleta atleta  = bo.pesquisar(codigo);
+	public Atleta buscar(@PathParam("id") int codigo) {
+		Atleta atleta = bo.pesquisar(codigo);
 		return atleta;
 	}
-	
+
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)
-	public List<Atleta> listar(){
-		return bo.listar();
+	public Response listar(){
+		List<Atleta> atletas = bo.listar();
+		return Response.ok().entity(atletas).header("Access-Control-Allow-Origin", "*")
+				.header("Access-Control-Allow-Methods", "GET, POST, DELETE, PUT").allow("OPTIONS").build();
 	}
-	
-	
+
 	@POST
 	@Produces(MediaType.APPLICATION_JSON)
-	public Response cadastrar(Atleta atleta, @Context UriInfo uriInfo){
+	public Response cadastrar(Atleta atleta, @Context UriInfo uriInfo) {
 		try {
 			bo.cadastrar(atleta);
 		} catch (DBException e) {
@@ -52,11 +53,11 @@ public class AtletaResource {
 		builder.path(Integer.toString(atleta.getCodigo()));
 		return Response.created(builder.build()).build();
 	}
-	
+
 	@PUT
 	@Path("/{id}")
 	@Produces(MediaType.APPLICATION_JSON)
-	public Response atualizar(Atleta atleta, @PathParam("id") int codigo){
+	public Response atualizar(Atleta atleta, @PathParam("id") int codigo) {
 		atleta.setCodigo(codigo);
 		try {
 			bo.alterar(atleta);
@@ -64,17 +65,17 @@ public class AtletaResource {
 			e.printStackTrace();
 		}
 		return Response.ok().build();
-		
+
 	}
-	
+
 	@DELETE
 	@Path("/{id}")
-	public void remover(@PathParam("id") int codigo){
+	public void remover(@PathParam("id") int codigo) {
 		try {
 			bo.remover(codigo);
 		} catch (IdNotFoundException | DBException e) {
 			e.printStackTrace();
 		}
 	}
-	
+
 }

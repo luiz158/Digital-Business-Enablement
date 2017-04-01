@@ -1,0 +1,11 @@
+package br.com.fiap.view;
+
+import br.com.fiap.repository.ProdutoRepository;
+
+public class CadastroView {
+	
+	public static void main(String[] args) {
+		ProdutoRepository rep = new ProdutoRepository();
+	}
+
+}
